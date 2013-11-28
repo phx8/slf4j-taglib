@@ -32,8 +32,8 @@ import org.slf4j.LoggerFactory;
 public abstract class LoggerTag extends BodyTagSupport {
 	private static final long serialVersionUID = 1L;
 	private String category;
-    private String message;
-    private Throwable t;
+        private String message;
+        private Throwable t;
 
     
     public void setCategory(String category) {
